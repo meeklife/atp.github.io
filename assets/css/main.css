@@ -2743,3 +2743,14 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# school list table
+--------------------------------------------------------------*/
+#main .school{
+  width: auto;
+	padding: 20px;
+	margin: auto;
+  font-family: var(--font-primary);
+  color:#006459;
+}
