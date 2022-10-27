@@ -2747,7 +2747,7 @@ section {
 /*--------------------------------------------------------------
 # school list table
 --------------------------------------------------------------*/
-#main .school{
+#main .school .table{
   width: auto;
 	padding: 20px;
 	margin: auto;
