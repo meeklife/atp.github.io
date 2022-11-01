@@ -2755,4 +2755,5 @@ font-family: var(--font-default);
 	margin: auto;
   font-family: var(--font-primary);
   color:#006459;
+overflow-x: auto;
 }
