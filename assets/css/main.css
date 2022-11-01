@@ -2750,14 +2750,14 @@ font-family: var(--font-default);
 # school list table
 --------------------------------------------------------------*/
 .school .container {
-  width: auto;
-	padding: 20px;
-	margin: auto;
-  font-family: var(--font-primary);
-  color:#006459;
+ width: auto;
+ padding: 20px;
+ margin: auto;
+ font-family: var(--font-primary);
+ color: #006459;
 overflow-x: auto;
 }
 
 .school .table{
-color; #006459;
+color: #006459;
 }
