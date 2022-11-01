@@ -2749,7 +2749,7 @@ font-family: var(--font-default);
 /*--------------------------------------------------------------
 # school list table
 --------------------------------------------------------------*/
-#main .school .table{
+.school .container {
   width: auto;
 	padding: 20px;
 	margin: auto;
