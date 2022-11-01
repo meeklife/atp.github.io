@@ -2762,8 +2762,9 @@ overflow-x: auto;
 color: #006459;
 }
 
-.school caption{
+.school .table caption{
 caption-side:top;
 text-align:center;
   color: #006459;
+  font-weight: bold;
 }
