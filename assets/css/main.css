@@ -2751,7 +2751,7 @@ font-family: var(--font-default);
 --------------------------------------------------------------*/
 .school .container {
  width: auto;
- padding: 20px;
+ padding: auto;
  margin: auto;
  font-family: var(--font-primary);
  color: #006459;
