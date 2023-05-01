@@ -373,7 +373,8 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: #00796B;;
+    color: #00796B;
+    ;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -647,7 +648,7 @@ section {
 
 }
 
-.about p{
+.about p {
   color: #00796B;
 }
 
@@ -1160,11 +1161,11 @@ section {
   text-align: center;
 }
 
-.portfolio p{
+.portfolio p {
   color: #00796B;
 }
 
-.portfolio h2{
+.portfolio h2 {
   color: #00796B;
 }
 
@@ -1435,9 +1436,10 @@ section {
   padding: 0 20px 30px 20px;
 }
 
-.team h2{
+.team h2 {
   color: #00796b
 }
+
 .team .member h4 {
   font-weight: 700;
   margin-top: 16px;
@@ -2150,7 +2152,7 @@ section {
   transition: 0.3s;
 }
 
-.blog .post-meta .post-author-list p{
+.blog .post-meta .post-author-list p {
   color: #00796b;
 }
 
@@ -2199,7 +2201,7 @@ section {
 }
 
 .blog .blog-details .content {
-font-family: var(--font-default);
+  font-family: var(--font-default);
   margin-top: 20px;
   color: #006459
 }
@@ -2750,21 +2752,33 @@ font-family: var(--font-default);
 # school list table
 --------------------------------------------------------------*/
 .school .container {
- width: auto;
- padding: auto;
- margin: auto;
- font-family: var(--font-primary);
- color: #006459;
-overflow-x: auto;
+  width: auto;
+  padding: auto;
+  margin: auto;
+  font-family: var(--font-primary);
+  color: #006459;
+  overflow-x: auto;
 }
 
-.school .table{
-color: #006459;
+.school .table,
+input::placeholder {
+  color: #006459;
 }
 
-.school .table caption{
-caption-side:top;
-text-align:center;
+.school .table caption {
+  caption-side: top;
+  text-align: center;
   color: #006459;
   font-weight: bold;
+}
+
+#myInput {
+  background-image: url('/assets/img/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #006459;
+  float: right;
+  width: 40%;
 }
