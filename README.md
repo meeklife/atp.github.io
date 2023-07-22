@@ -1,3 +1,3 @@
 Personal Website for my NGO
 
-    africatomorrowproject.org
+meeklife.github.io/atp.github.io/
